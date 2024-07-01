@@ -20,6 +20,9 @@ O Código gerado apartir do JPA, reproduzido por meio de um diagrama de banco de
 
 
 É possível perceber que é gerado uma nova tabela que interligará as duas tabelas, curso e pessoa.
-![image](https://github.com/conradocjo/pocmanymany/assets/29169349/d3a5e319-9a44-451f-a298-ce1d54d7691d)
+
+
+![image](https://github.com/conradocjo/pocmanymany/assets/29169349/5ea87c4b-6264-4ee7-9d56-86d0953e9eed)
+
 
 
