@@ -5,9 +5,13 @@ A Ideia desta POC é demonstrar por meio de um exemplo prático o comportamento 
 Para o exemplo em questão uma pessoa pode estar escrita em vários cursos e um curso pode ter várias pessoas.
 
 Abaixo o mapeamento da tabela Curso:
+
+
 ![image](https://github.com/conradocjo/pocmanymany/assets/29169349/50b10b45-3fd2-4d23-888d-a86db4c1b33c)
 
 Abaixo o mapeamento da tabela Pessoa:
+
+
 ![image](https://github.com/conradocjo/pocmanymany/assets/29169349/3f7c7eb0-fc4d-4ac9-9fb4-b132fb2bb088)
 
 
