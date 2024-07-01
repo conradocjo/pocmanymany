@@ -30,7 +30,7 @@ public class Controller {
 
 
         var curso = Curso.builder()
-                .nome("Sistema de informação")
+                .nome("Sistemas de informação")
                 .build();
 
         var curso2 = Curso.builder()
