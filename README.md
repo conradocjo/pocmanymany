@@ -12,7 +12,8 @@ Abaixo o mapeamento da tabela Pessoa:
 ![image](https://github.com/conradocjo/pocmanymany/assets/29169349/85300e20-5edd-4c5d-bbd4-f336a38cc187)
 
 O Código gerado apartir do JPA, reproduzido por meio de um diagrama de banco de dados:
-![image](https://github.com/conradocjo/pocmanymany/assets/29169349/4cae0577-dba5-4623-a7b4-c7d0bb138d6f)
+![image](https://github.com/conradocjo/pocmanymany/assets/29169349/ae460fda-0194-494c-bfe9-0b144ad100a7)
+
 
 É possível perceber que é gerado uma nova tabela que interligará as duas tabelas, curso e pessoa.
 ![image](https://github.com/conradocjo/pocmanymany/assets/29169349/d3a5e319-9a44-451f-a298-ce1d54d7691d)
