@@ -1,0 +1,27 @@
+
+Table "curso" {
+  "curso_id" int(11) [pk, not null]
+  "nome" varchar(255) [default: NULL]
+}
+
+Table "curso_escolhido" {
+  "curso_id" int(11) [not null]
+  "pessoa_id" int(11) [not null]
+
+  Indexes {
+    curso_id [name: "FKiut4oe52n0rij94tl6ouy7nyk"]
+    pessoa_id [name: "FKo0186iigoak3tuwqeggrv8m5w"]
+  }
+}
+
+
+Table "pessoa" {
+  "pessoa_id" int(11) [pk, not null]
+  "nome" varchar(255) [default: NULL]
+}
+
+
+
+Ref "FKiut4oe52n0rij94tl6ouy7nyk":"curso"."curso_id" < "curso_escolhido"."curso_id"
+
+Ref "FKo0186iigoak3tuwqeggrv8m5w":"pessoa"."pessoa_id" < "curso_escolhido"."pessoa_id"
