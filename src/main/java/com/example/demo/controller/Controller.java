@@ -25,7 +25,7 @@ public class Controller {
         this.cursoRepository = cursoRepository;
     }
 
-    @GetMapping("/pessoa")
+    @PostMapping("/pessoa")
     public ResponseEntity<String> novaPessoa() {
 
 
